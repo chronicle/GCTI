@@ -1,7 +1,7 @@
 # YARA Signatures
 
 This directory contains the currently open sourced YARA signatures from
-Uppercase. Each directory contains signatures specific to a particular malware/
+GCTI. Each directory contains signatures specific to a particular malware/
 tool family. 
 
 Currently, the following signature sets include:
