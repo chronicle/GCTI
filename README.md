@@ -1,3 +1,3 @@
-# Uppercase
+# GCTI
 
-This repository contains Uppercase's open source detection signatures.
+This repository contains GCTI's open source detection signatures.
