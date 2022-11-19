@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Xor_Bin__64bit_v3_12_to_v4_x
+rule CobaltStrike_Resources_Xor_Bin__64bit_v3_12_to_v4_x
 {
 	meta:
-		desc="Cobalt Strike's resource/xor64.bin signature for version 3.12 through 4.x"
-		rs1 = "01dba8783768093b9a34a1ea2a20f72f29fd9f43183f3719873df5827a04b744"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resource/xor64.bin signature for version 3.12 through 4.x"
+		hash =  "01dba8783768093b9a34a1ea2a20f72f29fd9f43183f3719873df5827a04b744"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	  /* The method for making this signatures consists of extracting each stub from the various resources/xor64.bin files

@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Beacon_Dll_v1_44
+rule CobaltStrike_Resources_Beacon_Dll_v1_44
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Version 1.44"
-    rs1 ="75102e8041c58768477f5f982500da7e03498643b6ece86194f4b3396215f9c2"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Version 1.44"
+    hash = "75102e8041c58768477f5f982500da7e03498643b6ece86194f4b3396215f9c2"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -46,12 +48,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v1_44
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v1_45
+rule CobaltStrike_Resources_Beacon_Dll_v1_45
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Version 1.45"
-    rs1 ="1a92b2024320f581232f2ba1e9a11bef082d5e9723429b3e4febb149458d1bb1"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Version 1.45"
+    hash = "1a92b2024320f581232f2ba1e9a11bef082d5e9723429b3e4febb149458d1bb1"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -79,12 +83,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v1_45
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v1_46
+rule CobaltStrike_Resources_Beacon_Dll_v1_46
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Version 1.46"
-    rs1 ="44e34f4024878024d4804246f57a2b819020c88ba7de160415be38cd6b5e2f76"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Version 1.46"
+    hash = "44e34f4024878024d4804246f57a2b819020c88ba7de160415be38cd6b5e2f76"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -108,12 +114,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v1_46
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v1_47
+rule CobaltStrike_Resources_Beacon_Dll_v1_47
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Version 1.47"
-    rs1 ="8ff6dc80581804391183303bb39fca2a5aba5fe13d81886ab21dbd183d536c8d"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Version 1.47"
+    hash = "8ff6dc80581804391183303bb39fca2a5aba5fe13d81886ab21dbd183d536c8d"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -135,12 +143,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v1_47
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v1_48
+rule CobaltStrike_Resources_Beacon_Dll_v1_48
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Version 1.48"
-    rs1 ="dd4e445572cd5e32d7e9cc121e8de337e6f19ff07547e3f2c6b7fce7eafd15e4"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Version 1.48"
+    hash = "dd4e445572cd5e32d7e9cc121e8de337e6f19ff07547e3f2c6b7fce7eafd15e4"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -167,12 +177,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v1_48
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v1_49
+rule CobaltStrike_Resources_Beacon_Dll_v1_49
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Version 1.49"
-    rs1 ="52b4bd87e21ee0cbaaa0fc007fd3f894c5fc2c4bae5cbc2a37188de3c2c465fe"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Version 1.49"
+    hash = "52b4bd87e21ee0cbaaa0fc007fd3f894c5fc2c4bae5cbc2a37188de3c2c465fe"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -198,12 +210,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v1_49
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v2_0_49
+rule CobaltStrike_Resources_Beacon_Dll_v2_0_49
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Version 2.0.49"
-    rs1 ="ed08c1a21906e313f619adaa0a6e5eb8120cddd17d0084a30ada306f2aca3a4e"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Version 2.0.49"
+    hash = "ed08c1a21906e313f619adaa0a6e5eb8120cddd17d0084a30ada306f2aca3a4e"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -228,13 +242,15 @@ rule CobaltStrike__Resources_Beacon_Dll_v2_0_49
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v2_1_and_v2_2
+rule CobaltStrike_Resources_Beacon_Dll_v2_1_and_v2_2
 {
   // v2.1 and v2.2 use the exact same beacon binary (matching hashes)
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 2.1 and 2.2"
-    rs1 ="ae7a1d12e98b8c9090abe19bcaddbde8db7b119c73f7b40e76cdebb2610afdc2"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 2.1 and 2.2"
+    hash = "ae7a1d12e98b8c9090abe19bcaddbde8db7b119c73f7b40e76cdebb2610afdc2"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -259,12 +275,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v2_1_and_v2_2
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v2_3
+rule CobaltStrike_Resources_Beacon_Dll_v2_3
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 2.3"
-    rs1 ="00dd982cb9b37f6effb1a5a057b6571e533aac5e9e9ee39a399bb3637775ff83"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 2.3"
+    hash = "00dd982cb9b37f6effb1a5a057b6571e533aac5e9e9ee39a399bb3637775ff83"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -289,12 +307,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v2_3
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v2_4
+rule CobaltStrike_Resources_Beacon_Dll_v2_4
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 2.4"
-    rs1 ="78c6f3f2b80e6140c4038e9c2bcd523a1b205d27187e37dc039ede4cf560beed"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 2.4"
+    hash = "78c6f3f2b80e6140c4038e9c2bcd523a1b205d27187e37dc039ede4cf560beed"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -319,12 +339,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v2_4
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v2_5
+rule CobaltStrike_Resources_Beacon_Dll_v2_5
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 2.5"
-    rs1 ="d99693e3e521f42d19824955bef0cefb79b3a9dbf30f0d832180577674ee2b58"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 2.5"
+    hash = "d99693e3e521f42d19824955bef0cefb79b3a9dbf30f0d832180577674ee2b58"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -349,12 +371,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v2_5
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_0
+rule CobaltStrike_Resources_Beacon_Dll_v3_0
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.0"
-    rs1 ="30251f22df7f1be8bc75390a2f208b7514647835f07593f25e470342fd2e3f52"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.0"
+    hash = "30251f22df7f1be8bc75390a2f208b7514647835f07593f25e470342fd2e3f52"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -379,12 +403,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_0
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_1
+rule CobaltStrike_Resources_Beacon_Dll_v3_1
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.1"
-    rs1 ="4de723e784ef4e1633bbbd65e7665adcfb03dd75505b2f17d358d5a40b7f35cf"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.1"
+    hash = "4de723e784ef4e1633bbbd65e7665adcfb03dd75505b2f17d358d5a40b7f35cf"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   // v3.1 and v3.2 share the same C2 handler code. We are using a function that
   // is not included in v3.2 to mark the v3.1 version along with the decoder
@@ -434,13 +460,15 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_1
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_2
+rule CobaltStrike_Resources_Beacon_Dll_v3_2
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.2"
-    rs1 ="b490eeb95d150530b8e155da5d7ef778543836a03cb5c27767f1ae4265449a8d"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.2"
+    hash = "b490eeb95d150530b8e155da5d7ef778543836a03cb5c27767f1ae4265449a8d"
     rs2 ="a93647c373f16d61c38ba6382901f468247f12ba8cbe56663abb2a11ff2a5144"
-    author = "gssincla@google.com"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -499,12 +527,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_2
     $version_sig and $decoder and not $version3_1_sig
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_3
+rule CobaltStrike_Resources_Beacon_Dll_v3_3
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.3"
-    rs1 ="158dba14099f847816e2fc22f254c60e09ac999b6c6e2ba6f90c6dd6d937bc42"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.3"
+    hash = "158dba14099f847816e2fc22f254c60e09ac999b6c6e2ba6f90c6dd6d937bc42"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -529,12 +559,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_3
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_4
+rule CobaltStrike_Resources_Beacon_Dll_v3_4
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.4"
-    rs1 ="5c40bfa04a957d68a095dd33431df883e3a075f5b7dea3e0be9834ce6d92daa3"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.4"
+    hash = "5c40bfa04a957d68a095dd33431df883e3a075f5b7dea3e0be9834ce6d92daa3"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -559,13 +591,15 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_4
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_5_hf1_and_3_5_1
+rule CobaltStrike_Resources_Beacon_Dll_v3_5_hf1_and_3_5_1
 {
   // Version 3.5-hf1 and 3.5.1 use the exact same beacon binary (same hash)
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.5-hf1 and 3.5.1 (3.5.x)"
-    rs1 ="c78e70cd74f4acda7d1d0bd85854ccacec79983565425e98c16a9871f1950525"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.5-hf1 and 3.5.1 (3.5.x)"
+    hash = "c78e70cd74f4acda7d1d0bd85854ccacec79983565425e98c16a9871f1950525"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -590,12 +624,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_5_hf1_and_3_5_1
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_6
+rule CobaltStrike_Resources_Beacon_Dll_v3_6
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.6"
-    rs1 ="495a744d0a0b5f08479c53739d08bfbd1f3b9818d8a9cbc75e71fcda6c30207d"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.6"
+    hash = "495a744d0a0b5f08479c53739d08bfbd1f3b9818d8a9cbc75e71fcda6c30207d"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -620,12 +656,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_6
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_7
+rule CobaltStrike_Resources_Beacon_Dll_v3_7
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.7"
-    rs1 ="f18029e6b12158fb3993f4951dab2dc6e645bb805ae515d205a53a1ef41ca9b2"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.7"
+    hash = "f18029e6b12158fb3993f4951dab2dc6e645bb805ae515d205a53a1ef41ca9b2"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -650,12 +688,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_7
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_8
+rule CobaltStrike_Resources_Beacon_Dll_v3_8
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.8"
-    rs1 ="67b6557f614af118a4c409c992c0d9a0cc800025f77861ecf1f3bbc7c293d603"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.8"
+    hash = "67b6557f614af118a4c409c992c0d9a0cc800025f77861ecf1f3bbc7c293d603"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -696,12 +736,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_8
 
 */
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_11
+rule CobaltStrike_Resources_Beacon_Dll_v3_11
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.11"
-    rs1 ="2428b93464585229fd234677627431cae09cfaeb1362fe4f648b8bee59d68f29"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.11"
+    hash = "2428b93464585229fd234677627431cae09cfaeb1362fe4f648b8bee59d68f29"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   // Original version from April 9, 2018
   strings:
@@ -727,13 +769,15 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_11
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_11_bugfix_and_v3_12
+rule CobaltStrike_Resources_Beacon_Dll_v3_11_bugfix_and_v3_12
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.11-bugfix and 3.12"
-    rs1 ="5912c96fffeabb2c5c5cdd4387cfbfafad5f2e995f310ace76ca3643b866e3aa"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.11-bugfix and 3.12"
+    hash = "5912c96fffeabb2c5c5cdd4387cfbfafad5f2e995f310ace76ca3643b866e3aa"
     rs2 ="4476a93abe48b7481c7b13dc912090b9476a2cdf46a1c4287b253098e3523192"
-    author = "gssincla@google.com"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   // Covers both 3.11 (bug fix form May 25, 2018) and v3.12
   strings:
@@ -759,12 +803,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_11_bugfix_and_v3_12
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_13
+rule CobaltStrike_Resources_Beacon_Dll_v3_13
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.13"
-    rs1 ="362119e3bce42e91cba662ea80f1a7957a5c2b1e92075a28352542f31ac46a0c"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.13"
+    hash = "362119e3bce42e91cba662ea80f1a7957a5c2b1e92075a28352542f31ac46a0c"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -789,13 +835,15 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_13
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_Dll_v3_14
+rule CobaltStrike_Resources_Beacon_Dll_v3_14
 {
   meta:
-    desc="Cobalt Strike's resources/beacon.dll Versions 3.14"
-    rs1 ="254c68a92a7108e8c411c7b5b87a2f14654cd9f1324b344f036f6d3b6c7accda"
+    description = "Cobalt Strike's resources/beacon.dll Versions 3.14"
+    hash = "254c68a92a7108e8c411c7b5b87a2f14654cd9f1324b344f036f6d3b6c7accda"
     rs2 ="87b3eb55a346b52fb42b140c03ac93fc82f5a7f80697801d3f05aea1ad236730"
-    author = "gssincla@google.com"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -817,12 +865,14 @@ rule CobaltStrike__Resources_Beacon_Dll_v3_14
     all of them
 }
 
-rule CobaltStrike__Sleeve_Beacon_Dll_v4_0_suspected
+rule CobaltStrike_Sleeve_Beacon_Dll_v4_0_suspected
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.dll Versions 4.0 (suspected, not confirmed)"
-    rs1 = "e2b2b72454776531bbc6a4a5dd579404250901557f887a6bccaee287ac71b248"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.dll Versions 4.0 (suspected, not confirmed)"
+    hash =  "e2b2b72454776531bbc6a4a5dd579404250901557f887a6bccaee287ac71b248"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -850,13 +900,15 @@ rule CobaltStrike__Sleeve_Beacon_Dll_v4_0_suspected
     all of them
 }
 
-rule CobaltStrike__Sleeve_Beacon_Dll_v4_1_and_v4_2
+rule CobaltStrike_Sleeve_Beacon_Dll_v4_1_and_v4_2
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.dll Versions 4.1 and 4.2"
-    rs1 ="daa42f4380cccf8729129768f3588bb98e4833b0c40ad0620bb575b5674d5fc3"
+    description = "Cobalt Strike's sleeve/beacon.dll Versions 4.1 and 4.2"
+    hash = "daa42f4380cccf8729129768f3588bb98e4833b0c40ad0620bb575b5674d5fc3"
     rs2 ="9de55f27224a4ddb6b2643224a5da9478999c7b2dea3a3d6b3e1808148012bcf"
-    author = "gssincla@google.com"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -881,13 +933,15 @@ rule CobaltStrike__Sleeve_Beacon_Dll_v4_1_and_v4_2
     all of them
 }
 
-rule CobaltStrike__Sleeve_Beacon_Dll_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_Beacon_Dll_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.dll Versions 4.3 and 4.4"
-    rs1 ="51490c01c72c821f476727c26fbbc85bdbc41464f95b28cdc577e5701790845f"
+    description = "Cobalt Strike's sleeve/beacon.dll Versions 4.3 and 4.4"
+    hash = "51490c01c72c821f476727c26fbbc85bdbc41464f95b28cdc577e5701790845f"
     rs2 ="78a6fbefa677eeee29d1af4a294ee57319221b329a2fe254442f5708858b37dc"
-    author = "gssincla@google.com"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -912,12 +966,14 @@ rule CobaltStrike__Sleeve_Beacon_Dll_v4_3_v4_4_v4_5_and_v4_6
     all of them
 }
 
-rule CobaltStrike__Sleeve_Beacon_Dll_v4_7_suspected
+rule CobaltStrike_Sleeve_Beacon_Dll_v4_7_suspected
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.dll Versions 4.7 (suspected, not confirmed)"
-    rs1 = "da9e91b3d8df3d53425dd298778782be3bdcda40037bd5c92928395153160549"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.dll Versions 4.7 (suspected, not confirmed)"
+    hash =  "da9e91b3d8df3d53425dd298778782be3bdcda40037bd5c92928395153160549"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
 
@@ -970,12 +1026,14 @@ rule CobaltStrike__Sleeve_Beacon_Dll_v4_7_suspected
 */
 
 
-rule CobaltStrike__Resources_Beacon_x64_v3_2
+rule CobaltStrike_Resources_Beacon_x64_v3_2
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.2"
-    rs1 = "5993a027f301f37f3236551e6ded520e96872723a91042bfc54775dcb34c94a1"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.2"
+    hash =  "5993a027f301f37f3236551e6ded520e96872723a91042bfc54775dcb34c94a1"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1009,12 +1067,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_2
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_3
+rule CobaltStrike_Resources_Beacon_x64_v3_3
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.3"
-    rs1 = "7b00721efeff6ed94ab108477d57b03022692e288cc5814feb5e9d83e3788580"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.3"
+    hash =  "7b00721efeff6ed94ab108477d57b03022692e288cc5814feb5e9d83e3788580"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1048,12 +1108,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_3
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_4
+rule CobaltStrike_Resources_Beacon_x64_v3_4
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.4"
-    rs1 = "5a4d48c2eda8cda79dc130f8306699c8203e026533ce5691bf90363473733bf0"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.4"
+    hash =  "5a4d48c2eda8cda79dc130f8306699c8203e026533ce5691bf90363473733bf0"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1085,12 +1147,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_4
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_5_hf1_and_v3_5_1
+rule CobaltStrike_Resources_Beacon_x64_v3_5_hf1_and_v3_5_1
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.5-hf1 and 3.5.1"
-    rs1 = "934134ab0ee65ec76ae98a9bb9ad0e9571d80f4bf1eb3491d58bacf06d42dc8d"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.5-hf1 and 3.5.1"
+    hash =  "934134ab0ee65ec76ae98a9bb9ad0e9571d80f4bf1eb3491d58bacf06d42dc8d"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1124,12 +1188,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_5_hf1_and_v3_5_1
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_6
+rule CobaltStrike_Resources_Beacon_x64_v3_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.6"
-    rs1 = "92b0a4aec6a493bcb1b72ce04dd477fd1af5effa0b88a9d8283f26266bb019a1"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.6"
+    hash =  "92b0a4aec6a493bcb1b72ce04dd477fd1af5effa0b88a9d8283f26266bb019a1"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1166,12 +1232,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_6
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_7
+rule CobaltStrike_Resources_Beacon_x64_v3_7
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.7"
-    rs1 = "81296a65a24c0f6f22208b0d29e7bb803569746ce562e2fa0d623183a8bcca60"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.7"
+    hash =  "81296a65a24c0f6f22208b0d29e7bb803569746ce562e2fa0d623183a8bcca60"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1205,12 +1273,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_7
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_8
+rule CobaltStrike_Resources_Beacon_x64_v3_8
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.8"
-    rs1 = "547d44669dba97a32cb9e95cfb8d3cd278e00599e6a11080df1a9d09226f33ae"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.8"
+    hash =  "547d44669dba97a32cb9e95cfb8d3cd278e00599e6a11080df1a9d09226f33ae"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1239,13 +1309,15 @@ rule CobaltStrike__Resources_Beacon_x64_v3_8
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_11
+rule CobaltStrike_Resources_Beacon_x64_v3_11
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.11 (two subversions)"
-    rs1 = "64007e104dddb6b5d5153399d850f1e1f1720d222bed19a26d0b1c500a675b1a"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.11 (two subversions)"
+    hash =  "64007e104dddb6b5d5153399d850f1e1f1720d222bed19a26d0b1c500a675b1a"
     rs2 = "815f313e0835e7fdf4a6d93f2774cf642012fd21ce870c48ff489555012e0047"
-    author = "gssincla@google.com"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
 	
@@ -1293,12 +1365,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_11
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_12
+rule CobaltStrike_Resources_Beacon_x64_v3_12
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.12"
-    rs1 = "8a28b7a7e32ace2c52c582d0076939d4f10f41f4e5fa82551e7cc8bdbcd77ebc"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.12"
+    hash =  "8a28b7a7e32ace2c52c582d0076939d4f10f41f4e5fa82551e7cc8bdbcd77ebc"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1330,12 +1404,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_12
 }
 
 
-rule CobaltStrike__Resources_Beacon_x64_v3_13
+rule CobaltStrike_Resources_Beacon_x64_v3_13
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.13"
-    rs1 = "945e10dcd57ba23763481981c6035e0d0427f1d3ba71e75decd94b93f050538e"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.13"
+    hash =  "945e10dcd57ba23763481981c6035e0d0427f1d3ba71e75decd94b93f050538e"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1363,13 +1439,15 @@ rule CobaltStrike__Resources_Beacon_x64_v3_13
     all of them
 }
 
-rule CobaltStrike__Resources_Beacon_x64_v3_14
+rule CobaltStrike_Resources_Beacon_x64_v3_14
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 3.14"
-    rs1 = "297a8658aaa4a76599a7b79cb0da5b8aa573dd26c9e2c8f071e591200cf30c93"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 3.14"
+    hash =  "297a8658aaa4a76599a7b79cb0da5b8aa573dd26c9e2c8f071e591200cf30c93"
     rs2 = "39b9040e3dcd1421a36e02df78fe031cbdd2fb1a9083260b8aedea7c2bc406bf"
-    author = "gssincla@google.com"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
 
@@ -1399,12 +1477,14 @@ rule CobaltStrike__Resources_Beacon_x64_v3_14
 }
 
 
-rule CobaltStrike__Sleeve_Beacon_Dll_x86_v4_0_suspected
+rule CobaltStrike_Sleeve_Beacon_Dll_x86_v4_0_suspected
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 4.0 (suspected, not confirmed)"
-    rs1 = "55aa2b534fcedc92bb3da54827d0daaa23ece0f02a10eb08f5b5247caaa63a73"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 4.0 (suspected, not confirmed)"
+    hash =  "55aa2b534fcedc92bb3da54827d0daaa23ece0f02a10eb08f5b5247caaa63a73"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1434,12 +1514,14 @@ rule CobaltStrike__Sleeve_Beacon_Dll_x86_v4_0_suspected
     all of them
 }
 
-rule CobaltStrike__Sleeve_Beacon_x64_v4_1_and_v_4_2
+rule CobaltStrike_Sleeve_Beacon_x64_v4_1_and_v_4_2
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 4.1 and 4.2"
-    rs1 = "29ec171300e8d2dad2e1ca2b77912caf0d5f9d1b633a81bb6534acb20a1574b2"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 4.1 and 4.2"
+    hash =  "29ec171300e8d2dad2e1ca2b77912caf0d5f9d1b633a81bb6534acb20a1574b2"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -1470,12 +1552,14 @@ rule CobaltStrike__Sleeve_Beacon_x64_v4_1_and_v_4_2
     all of them
 }
 
-rule CobaltStrike__Sleeve_Beacon_x64_v4_3
+rule CobaltStrike_Sleeve_Beacon_x64_v4_3
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Version 4.3"
-    rs1 = "3ac9c3525caa29981775bddec43d686c0e855271f23731c376ba48761c27fa3d"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Version 4.3"
+    hash =  "3ac9c3525caa29981775bddec43d686c0e855271f23731c376ba48761c27fa3d"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
   
@@ -1506,12 +1590,14 @@ rule CobaltStrike__Sleeve_Beacon_x64_v4_3
 }
 
 
-rule CobaltStrike__Sleeve_Beacon_x64_v4_4_v_4_5_and_v4_6
+rule CobaltStrike_Sleeve_Beacon_x64_v4_4_v_4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 4.4 through at least 4.6"
-    rs1 ="3280fec57b7ca94fd2bdb5a4ea1c7e648f565ac077152c5a81469030ccf6ab44"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 4.4 through at least 4.6"
+    hash = "3280fec57b7ca94fd2bdb5a4ea1c7e648f565ac077152c5a81469030ccf6ab44"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 
   strings:
     /*
@@ -1541,12 +1627,14 @@ rule CobaltStrike__Sleeve_Beacon_x64_v4_4_v_4_5_and_v4_6
     all of them
 }
 
-rule CobaltStrike__Sleeve_Beacon_x64_v4_5_variant
+rule CobaltStrike_Sleeve_Beacon_x64_v4_5_variant
 {
   meta:
-    desc="Cobalt Strike's sleeve/beacon.x64.dll Versions 4.5 (variant)"
-    rs1 = "8f0da7a45945b630cd0dfb5661036e365dcdccd085bc6cff2abeec6f4c9f1035"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/beacon.x64.dll Versions 4.5 (variant)"
+    hash =  "8f0da7a45945b630cd0dfb5661036e365dcdccd085bc6cff2abeec6f4c9f1035"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*

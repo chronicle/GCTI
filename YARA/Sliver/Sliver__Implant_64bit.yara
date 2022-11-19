@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule Sliver__Implant_64bit
+rule Sliver_Implant_64bit
 {
   meta:
-    desc = "Sliver 64-bit implant (with and without --debug flag at compile)"
-    rs1 = "2d1c9de42942a16c88a042f307f0ace215cdc67241432e1152080870fe95ea87"
+    description = "Sliver 64-bit implant (with and without --debug flag at compile)"
+    hash =  "2d1c9de42942a16c88a042f307f0ace215cdc67241432e1152080870fe95ea87"
     author = "gssincla@google.com"
+    reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+    date = "2022-11-18"
 
   strings:
     // We look for the specific switch/case statement case values.
