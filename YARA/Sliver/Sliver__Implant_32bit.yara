@@ -22,6 +22,7 @@ rule Sliver_Implant_32bit
     author = "gssincla@google.com"
     reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
     date = "2022-11-18"
+    modified = "2022-11-19"
 
   strings:
     // We look for the specific switch/case statement case values.
@@ -34,13 +35,13 @@ rule Sliver_Implant_32bit
       .
       81 ?? 04 69 76 6F 74  cmp     dword ptr [ecx+4], 746F7669h
     */
-    $tcppivot = { 81 ?? 74 63 70 70 [2-20] 81 ?? 04 69 76 6F 74  }
+    $s_tcppivot = { 81 ?? 74 63 70 70 [2-20] 81 ?? 04 69 76 6F 74  }
 
     // case "wg":
     /*
       66 81 ?? 77 67 cmp     word ptr [eax], 6777h      // "gw"
     */
-    $wg = { 66 81 ?? 77 67 }
+    $s_wg = { 66 81 ?? 77 67 }
 
     // case "dns":
     /*
@@ -50,13 +51,13 @@ rule Sliver_Implant_32bit
       .
       80 ?? 02 73    cmp     byte ptr [eax+2], 73h ; 's'
     */
-    $dns = { 66 81 ?? 64 6E [2-20] 80 ?? 02 73 }
+    $s_dns = { 66 81 ?? 64 6E [2-20] 80 ?? 02 73 }
 
     // case "http":
     /*
       81 ?? 68 74 74 70  cmp     dword ptr [eax], 70747468h     // "ptth"
      */
-    $http = { 81 ?? 68 74 74 70 }
+    $s_http = { 81 ?? 68 74 74 70 }
 
     // case "https":
     /*
@@ -66,14 +67,15 @@ rule Sliver_Implant_32bit
       .
       80 ?? 04 73        cmp     byte ptr [ecx+4], 73h ; 's'
     */
-    $https = { 81 ?? 68 74 74 70 [2-20] 80 ?? 04 73 }
+    $s_https = { 81 ?? 68 74 74 70 [2-20] 80 ?? 04 73 }
 
     // case "mtls":       NOTE: this one can be missing due to compilate time config
     /*
       81 ?? 6D 74 6C 73  cmp     dword ptr [eax], 736C746Dh     // "sltm"
     */
-    $mtls = { 81 ?? 6D 74 6C 73 }
+    $s_mtls = { 81 ?? 6D 74 6C 73 }
 
+    $fp1 = "cloudfoundry" ascii fullword
   condition:
-    4 of them
+    4 of ($s*) and not 1 of ($fp*)
 }
