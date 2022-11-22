@@ -32,7 +32,8 @@ rule CobaltStrike_Resources__Template_Vbs_v3_3_to_v4_x
     $regwrite = ".RegWrite" nocase
     $dw = "REG_DWORD"
     $code = ".CodeModule.AddFromString"
-    $ao = "Auto_Open"
+	 /* Hex encoded Auto_*/ /*Open */
+    $ao = { 41 75 74 6f 5f 4f 70 65 6e }
     $da = ".DisplayAlerts"
 
   condition:
