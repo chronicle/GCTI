@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Covertvpn_injector_Exe_v1_44_to_v2_0_49
+rule CobaltStrike_Resources_Covertvpn_injector_Exe_v1_44_to_v2_0_49
 {
 	meta:
-		desc="Cobalt Strike's resources/covertvpn-injector.exe signature for version v1.44 to v2.0.49"
-		rs1 = "d741751520f46602f5a57d1ed49feaa5789115aeeba7fa4fc7cbb534ee335462"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/covertvpn-injector.exe signature for version v1.44 to v2.0.49"
+		hash =  "d741751520f46602f5a57d1ed49feaa5789115aeeba7fa4fc7cbb534ee335462"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	/*

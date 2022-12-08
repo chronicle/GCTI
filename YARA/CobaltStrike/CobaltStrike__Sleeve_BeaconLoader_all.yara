@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Sleeve_BeaconLoader_HA_x86_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_HA_x86_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.HA.x86.o (HeapAlloc) Versions 4.3 through at least 4.6"
-    rs1 = "8e4a1862aa3693f0e9011ade23ad3ba036c76ae8ccfb6585dc19ceb101507dcd"
+    description = "Cobalt Strike's sleeve/BeaconLoader.HA.x86.o (HeapAlloc) Versions 4.3 through at least 4.6"
+    hash =  "8e4a1862aa3693f0e9011ade23ad3ba036c76ae8ccfb6585dc19ceb101507dcd"
     author = "gssincla@google.com"
+    reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+    date = "2022-11-18"
    
   strings:
     /*
@@ -56,12 +58,14 @@ rule CobaltStrike__Sleeve_BeaconLoader_HA_x86_o_v4_3_v4_4_v4_5_and_v4_6
     all of them
 }
 
-rule CobaltStrike__Sleeve_BeaconLoader_MVF_x86_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_MVF_x86_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.MVF.x86.o (MapViewOfFile) Versions 4.3 through at least 4.6"
-    rs1 = "cded3791caffbb921e2afa2de4c04546067c3148c187780066e8757e67841b44"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/BeaconLoader.MVF.x86.o (MapViewOfFile) Versions 4.3 through at least 4.6"
+    hash =  "cded3791caffbb921e2afa2de4c04546067c3148c187780066e8757e67841b44"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -107,12 +111,14 @@ rule CobaltStrike__Sleeve_BeaconLoader_MVF_x86_o_v4_3_v4_4_v4_5_and_v4_6
 }
 
 
-rule CobaltStrike__Sleeve_BeaconLoader_VA_x86_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_VA_x86_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.VA.x86.o (VirtualAlloc) Versions 4.3 through at least 4.6"
-    rs1 = "94d1b993a9d5786e0a9b44ea1c0dc27e225c9eb7960154881715c47f9af78cc1"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/BeaconLoader.VA.x86.o (VirtualAlloc) Versions 4.3 through at least 4.6"
+    hash =  "94d1b993a9d5786e0a9b44ea1c0dc27e225c9eb7960154881715c47f9af78cc1"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -187,12 +193,14 @@ rule CobaltStrike__Sleeve_BeaconLoader_VA_x86_o_v4_3_v4_4_v4_5_and_v4_6
     all of them
 }
 
-rule CobaltStrike__Sleeve_BeaconLoader_x86_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_x86_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.x86.o Versions 4.3 through at least 4.6"
-    rs1 = "94d1b993a9d5786e0a9b44ea1c0dc27e225c9eb7960154881715c47f9af78cc1"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/BeaconLoader.x86.o Versions 4.3 through at least 4.6"
+    hash =  "94d1b993a9d5786e0a9b44ea1c0dc27e225c9eb7960154881715c47f9af78cc1"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -270,12 +278,14 @@ rule CobaltStrike__Sleeve_BeaconLoader_x86_o_v4_3_v4_4_v4_5_and_v4_6
 
 // 64-bit BeaconLoaders
 
-rule CobaltStrike__Sleeve_BeaconLoader_HA_x64_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_HA_x64_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.HA.x64.o (HeapAlloc) Versions 4.3 through at least 4.6"
-    rs1 = "d64f10d5a486f0f2215774e8ab56087f32bef19ac666e96c5627c70d345a354d"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/BeaconLoader.HA.x64.o (HeapAlloc) Versions 4.3 through at least 4.6"
+    hash =  "d64f10d5a486f0f2215774e8ab56087f32bef19ac666e96c5627c70d345a354d"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -313,12 +323,14 @@ rule CobaltStrike__Sleeve_BeaconLoader_HA_x64_o_v4_3_v4_4_v4_5_and_v4_6
 }
 
 
-rule CobaltStrike__Sleeve_BeaconLoader_MVF_x64_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_MVF_x64_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.MVF.x64.o (MapViewOfFile) Versions 4.3 through at least 4.6"
-    rs1 = "9d5b6ccd0d468da389657309b2dc325851720390f9a5f3d3187aff7d2cd36594"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/BeaconLoader.MVF.x64.o (MapViewOfFile) Versions 4.3 through at least 4.6"
+    hash =  "9d5b6ccd0d468da389657309b2dc325851720390f9a5f3d3187aff7d2cd36594"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -361,12 +373,14 @@ rule CobaltStrike__Sleeve_BeaconLoader_MVF_x64_o_v4_3_v4_4_v4_5_and_v4_6
     all of them
 }
 
-rule CobaltStrike__Sleeve_BeaconLoader_VA_x64_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_VA_x64_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.VA.x64.o (VirtualAlloc) Versions 4.3 through at least 4.6"
-    rs1 = "ac090a0707aa5ccd2c645b523bd23a25999990cf6895fce3bfa3b025e3e8a1c9"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/BeaconLoader.VA.x64.o (VirtualAlloc) Versions 4.3 through at least 4.6"
+    hash =  "ac090a0707aa5ccd2c645b523bd23a25999990cf6895fce3bfa3b025e3e8a1c9"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*
@@ -441,12 +455,14 @@ rule CobaltStrike__Sleeve_BeaconLoader_VA_x64_o_v4_3_v4_4_v4_5_and_v4_6
     all of them
 }
 
-rule CobaltStrike__Sleeve_BeaconLoader_x64_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Sleeve_BeaconLoader_x64_o_v4_3_v4_4_v4_5_and_v4_6
 {
   meta:
-    desc="Cobalt Strike's sleeve/BeaconLoader.x64.o (Base) Versions 4.3 through at least 4.6"
-    rs1 = "ac090a0707aa5ccd2c645b523bd23a25999990cf6895fce3bfa3b025e3e8a1c9"
-    author = "gssincla@google.com"
+    description = "Cobalt Strike's sleeve/BeaconLoader.x64.o (Base) Versions 4.3 through at least 4.6"
+    hash =  "ac090a0707aa5ccd2c645b523bd23a25999990cf6895fce3bfa3b025e3e8a1c9"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
     
   strings:
     /*

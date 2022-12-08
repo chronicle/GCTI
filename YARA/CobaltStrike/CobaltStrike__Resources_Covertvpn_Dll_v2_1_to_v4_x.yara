@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Covertvpn_Dll_v2_1_to_v4_x
+rule CobaltStrike_Resources_Covertvpn_Dll_v2_1_to_v4_x
 {
 	meta:
-		desc="Cobalt Strike's resources/covertvpn.dll signature for version v2.2 to v4.4"
-		rs1 = "0a452a94d53e54b1df6ba02bc2f02e06d57153aad111171a94ec65c910d22dcf"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/covertvpn.dll signature for version v2.2 to v4.4"
+		hash =  "0a452a94d53e54b1df6ba02bc2f02e06d57153aad111171a94ec65c910d22dcf"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	/*

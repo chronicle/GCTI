@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Artifact32svc_Exe_v1_49_to_v3_14
+rule CobaltStrike_Resources_Artifact32svc_Exe_v1_49_to_v3_14
 {
 	meta:
-		desc="Cobalt Strike's resources/artifact32svc(big).exe and resources/artifact32uac(alt).exe signature for versions v1.49 to v3.14"
-		rs1 = "323ddf9623368b550def9e8980fde0557b6fe2dcd945fda97aa3b31c6c36d682"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/artifact32svc(big).exe and resources/artifact32uac(alt).exe signature for versions v1.49 to v3.14"
+		hash =  "323ddf9623368b550def9e8980fde0557b6fe2dcd945fda97aa3b31c6c36d682"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	/*
@@ -48,12 +50,14 @@ rule CobaltStrike__Resources_Artifact32svc_Exe_v1_49_to_v3_14
 		any of them
 }
 
-rule CobaltStrike__Resources_Artifact32svc_Exe_v3_1_v3_2_v3_14_and_v4_x
+rule CobaltStrike_Resources_Artifact32svc_Exe_v3_1_v3_2_v3_14_and_v4_x
 {
 	meta:
-		desc="Cobalt Strike's resources/artifact32svc(big).exe signature for versions 3.1 and 3.2 (with overlap with v3.14 through v4.x)"
-		rs1 = "871390255156ce35221478c7837c52d926dfd581173818620b738b4b029e6fd9"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/artifact32svc(big).exe signature for versions 3.1 and 3.2 (with overlap with v3.14 through v4.x)"
+		hash =  "871390255156ce35221478c7837c52d926dfd581173818620b738b4b029e6fd9"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	/*

@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Httpstager_Bin_v2_5_through_v4_x
+rule CobaltStrike_Resources_Httpstager_Bin_v2_5_through_v4_x
 {
 	meta:
-		desc="Cobalt Strike's resources/httpstager.bin signature for versions 2.5 to 4.x"
-		rs1 = "a47569af239af092880751d5e7b68d0d8636d9f678f749056e702c9b063df256"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/httpstager.bin signature for versions 2.5 to 4.x"
+		hash =  "a47569af239af092880751d5e7b68d0d8636d9f678f749056e702c9b063df256"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	/*

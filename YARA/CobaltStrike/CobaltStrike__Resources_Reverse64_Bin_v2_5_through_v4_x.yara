@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Reverse64_Bin_v2_5_through_v4_x
+rule CobaltStrike_Resources_Reverse64_Bin_v2_5_through_v4_x
 {
 	meta:
-		desc="Cobalt Strike's resources/reverse64.bin signature for versions v2.5 to v4.x"
-		rs1 = "d2958138c1b7ef681a63865ec4a57b0c75cc76896bf87b21c415b7ec860397e8"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/reverse64.bin signature for versions v2.5 to v4.x"
+		hash =  "d2958138c1b7ef681a63865ec4a57b0c75cc76896bf87b21c415b7ec860397e8"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	/*

@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources_Bypassuactoken_x64_Dll_v3_11_to_v3_14
+rule CobaltStrike_Resources_Bypassuactoken_x64_Dll_v3_11_to_v3_14
 {
 	meta:
-		desc="Cobalt Strike's resources/bypassuactoken.x64.dll from v3.11 to v3.14 (64-bit version)"
-		rs1 = "853068822bbc6b1305b2a9780cf1034f5d9d7127001351a6917f9dbb42f30d67"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/bypassuactoken.x64.dll from v3.11 to v3.14 (64-bit version)"
+		hash =  "853068822bbc6b1305b2a9780cf1034f5d9d7127001351a6917f9dbb42f30d67"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	/*

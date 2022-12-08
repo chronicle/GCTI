@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-rule CobaltStrike__Resources__Template_Vbs_v3_3_to_v4_x
+rule CobaltStrike_Resources__Template_Vbs_v3_3_to_v4_x
 {
 	meta:
-		desc="Cobalt Strike's resources/btemplate.vbs signature for versions v3.3 to v4.x"
-		rs1 = "e0683f953062e63b2aabad7bc6d76a78748504b114329ef8e2ece808b3294135"
-    author = "gssincla@google.com"
+		description = "Cobalt Strike's resources/btemplate.vbs signature for versions v3.3 to v4.x"
+		hash =  "e0683f953062e63b2aabad7bc6d76a78748504b114329ef8e2ece808b3294135"
+		author = "gssincla@google.com"
+		reference = "https://cloud.google.com/blog/products/identity-security/making-cobalt-strike-harder-for-threat-actors-to-abuse"
+		date = "2022-11-18"
 		
 	strings:
 	  $ea = "Excel.Application" nocase
@@ -30,7 +32,8 @@ rule CobaltStrike__Resources__Template_Vbs_v3_3_to_v4_x
     $regwrite = ".RegWrite" nocase
     $dw = "REG_DWORD"
     $code = ".CodeModule.AddFromString"
-    $ao = "Auto_Open"
+	 /* Hex encoded Auto_*/ /*Open */
+    $ao = { 41 75 74 6f 5f 4f 70 65 6e }
     $da = ".DisplayAlerts"
 
   condition:
