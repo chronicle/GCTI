@@ -727,7 +727,7 @@ rule CobaltStrike_Resources_Beacon_Dll_v3_8
     //$a = /[A-Za-z]{1020}.{4}$/
     
   condition:
-    $version_sig and $decoder and (2 of ($c2_*) or $xmrig_srcpath)
+    $version_sig and $decoder and not (2 of ($c2_*) or $xmrig_srcpath)
 }
 
 /*
